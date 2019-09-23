@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+</head>
+
+<body>
+
+    <div class="userList"></div>
+
+    Message:<br>
+    <input type="text" name="message" value="message" id="message">
+    <br>
+    <button value="Submit" onClick="submitForm()">Senden</button>
+    <button onClick="emitLocation()">Send location</button>
+    <div>
+    </div>
+          
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>
